@@ -1,12 +1,4 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
---platform=linux/arm64 ghcr.io/monlor/xiaoya-alist:latest
---platform=linux/arm64 ghcr.io/monlor/xiaoya-metadata:latest
---platform=linux/arm64 ghcr.io/monlor/xiaoya-embyserver:latest
---platform=linux/arm64 laoyutang/clash-and-dashboard
-herberthe0229/iptv-sources:latest
---platform=linux/arm64 herberthe0229/iptv-sources:latest
+--platform=linux/arm64 portainer/portainer
