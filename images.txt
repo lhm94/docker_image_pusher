@@ -1,5 +1,3 @@
-nginx
 #支持私库
-#支持指定架构
---platform=linux/arm64 portainer/portainer
-jxxghp/moviepilot
+#支持指定架构 --platform=linux/arm64
+ghcr.io/monlor/xiaoya-jellyfin:latest
